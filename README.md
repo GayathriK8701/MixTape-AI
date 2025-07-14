@@ -2,7 +2,7 @@
 
 A modern React application that uses AI to generate personalized music playlists. Users can describe their mood, occasion, or preferences, and the app will analyze the request and find matching songs from Spotify.
 
-## ✨ Features
+## Features
 
 - **AI-Powered Playlist Generation**: Describe your mood and get personalized song recommendations
 - **Spotify Integration**: Real-time song search and preview playback
@@ -12,7 +12,7 @@ A modern React application that uses AI to generate personalized music playlists
 - **Queue Management**: Add/remove songs from your personal mixtape
 - **AI Playlist Expansion**: Generate more songs based on your existing playlist
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -72,7 +72,7 @@ python app.py
 
 The backend API will run on `http://localhost:5000`
 
-## 🎯 How to Use
+##  How to Use
 
 1. **Sign Up/Login**: Create an account or sign in to access the app
 2. **Generate Playlist**: Enter a description like "Chill pop songs for a rainy day" or "Upbeat workout music"
@@ -81,7 +81,7 @@ The backend API will run on `http://localhost:5000`
 5. **Play Music**: Use the built-in player to listen to your mixtape
 6. **Expand Playlist**: Once you have 4+ songs, generate an AI playlist based on your existing songs
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Frontend
 - **React 18**: Modern React with hooks
@@ -101,7 +101,7 @@ The backend API will run on `http://localhost:5000`
 ### Database
 - **SQLite**: Lightweight database (can be changed to PostgreSQL/MySQL)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 mixtape-ai-react/
@@ -121,7 +121,7 @@ mixtape-ai-react/
 └── README.md
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -146,7 +146,7 @@ JWT_SECRET_KEY=your_jwt_secret_key_here
 - `GET /api/mixtape_queue` - Get user's mixtape queue
 - `POST /api/generate_playlist_from_songs` - Generate AI playlist from existing songs
 
-## 🎨 UI Features
+##  UI Features
 
 - **Glassmorphism Design**: Modern glass-like UI elements
 - **Responsive Layout**: Works on desktop, tablet, and mobile
@@ -155,7 +155,7 @@ JWT_SECRET_KEY=your_jwt_secret_key_here
 - **Loading States**: Beautiful loading indicators
 - **Error Handling**: User-friendly error messages
 
-## 🔒 Security Features
+##  Security Features
 
 - **JWT Authentication**: Secure token-based authentication
 - **Password Hashing**: Bcrypt password encryption
@@ -163,7 +163,7 @@ JWT_SECRET_KEY=your_jwt_secret_key_here
 - **Input Validation**: Server-side validation for all inputs
 - **SQL Injection Protection**: SQLAlchemy ORM protection
 
-## 🚀 Deployment
+##  Deployment
 
 ### Frontend Deployment
 
@@ -181,19 +181,10 @@ npm run build
 3. Set environment variables
 4. Run with a production WSGI server like Gunicorn
 
-## 🤝 Contributing
+### Screenshot
+![MixTape-AI Screenshot](https://github.com/user-attachments/assets/d9f8f059-0ef2-4124-b77b-2da1a7d4447f)
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📝 License
-
-This project is licensed under the MIT License.
-
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - OpenAI for AI-powered analysis
 - Spotify for music data and playback
